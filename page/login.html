@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html style="font-size: 100%;">
+	<head>
+		<meta charset="utf-8" />
+		<meta charset="utf-8">
+	    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+	    <link rel="stylesheet" type="text/css" href="../css/commo.css"/>
+	    <link rel="stylesheet" type="text/css" href="../css/tourism.css"/>
+	    <title>rem-fontsize</title>
+	</head>
+	<body>
+		<!--头部-->
+		<header class="page-header">
+				<div class="page-nav">
+					登录<span class="fr">注册</span>
+				</div>
+				<a class="top-goback" href="javascript:history.go(-1)">
+					<i class="goback-icon"></i>
+				</a>
+		</header>
+		
+		<div class="login-form">
+			<div class="from-input">
+					<input class="input-ctrl" type="text" placeholder="请输入手机号/邮箱" />
+					<i class="tourism-icon input-user-icon"></i>
+			</div>
+			
+			<div class="from-input">
+					<input class="input-ctrl" type="text" placeholder="请输入密码" />
+					<i class="tourism-icon input-lock-icon"></i>
+			</div>
+			
+			<div class="form-input-btn">
+				<button class="form-btn">
+					<a href="mine-home.html">登&nbsp;&nbsp;录</a>
+				</button>
+			</div>
+			
+			<div class="form-operation ">
+				<p>
+					<a class="fl" href="">快速注册</a>
+					<a class="fr" href="">忘记密码</a>
+				</p>
+			</div>
+		</div>
+		
+		<!--第三方登录-->
+		<section class="third-party-login">
+			<p class="txtC">第三方登录</p>
+			<div class="third-party-method">
+				<ul class="txtC clearfix">
+					<li><i class="sina-icon"></i></li>
+					<li><i class="qq-icon"></i></li>
+					<li><i class="wechat-icon"></i></li>
+				</ul>
+			</div>
+		</section>
+		
+		
+		
+		
+	<script src="http://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+	<script src="../js/tourism.js"></script>
+	<script type="text/javascript">
+					$(function(){
+			   $(window).resize(function(){
+					var nowWidth = document.body.clientWidth;//获取当前屏幕有效区域BODY的宽度
+					var changePercent = (nowWidth/640) * 100;//对比我们的640px宽度参考值,计算当前宽度变化的百分比
+					console.log('当前屏幕宽度:'+nowWidth+'px,相对于640px参考值的变化百分比:'+changePercent+"%");
+					$("html").css("font-size",changePercent+"%");
+			   }).resize();
+			})
+	</script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

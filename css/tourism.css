@@ -1,0 +1,491 @@
+.orange {
+  color: #f4a931;
+}
+.bgcolor {
+  color: #08c8c1;
+}
+.tourism-icon {
+  position: absolute;
+  vertical-align: middle;
+  display: inline-block;
+  background: url(../images/tourism-icon.png) no-repeat;
+}
+/*-------------------login-----------------*/
+.page-header {
+  padding: 1rem;
+  text-align: center;
+  color: #ffffff;
+  width: 100%;
+  height: 4rem;
+  font-size: 2rem;
+  line-height: 2rem;
+  background: #08c8c1;
+  position: relative;
+  z-index: 99;
+}
+.page-header .top-back {
+  text-align: center;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  width: 1.25rem;
+  display: inline-block;
+}
+.page-header .goback-icon {
+  position: absolute;
+  background: url(../images/goback-icon.png) no-repeat;
+  background-size: 1.25rem 2.5rem;
+  width: 1.25rem;
+  height: 2.5rem;
+  display: inline-block;
+  /*1*/
+  top: 1rem;
+  left: 1.25rem;
+}
+.login-form {
+  padding: 4rem 3rem 0 3rem;
+}
+.login-form .from-input {
+  margin-bottom: 1.25rem;
+  border: 1px solid #08c8c1;
+  border-radius: 5px;
+  padding: 1.5rem 3.375rem;
+  position: relative;
+  font-size: 1.5rem;
+}
+.login-form .input-user-icon {
+  background-size: 100%;
+  background-position: -0.5375rem -20.65rem;
+  top: 1.125rem;
+  left: 0.8125rem;
+  width: 2.825rem;
+  height: 1.675rem;
+}
+.login-form .input-lock-icon {
+  background-size: 100%;
+  background-position: -0.4625rem -22.38rem;
+  top: 1.125rem;
+  left: 0.8125rem;
+  width: 2.825rem;
+  height: 1.975rem;
+}
+.login-form .form-input-btn {
+  margin-bottom: 1.25rem;
+  border: 1px solid #f4a931;
+  border-radius: 5px;
+  padding: 1.5rem 3.375rem;
+  text-align: center;
+}
+.login-form .form-input-btn .form-btn {
+  font-size: 2rem;
+  line-height: 2rem;
+  height: 2rem;
+  color: #1b3847;
+  width: 6.75rem;
+  background: none;
+  font-family: Microsoft YaHei, '宋体', Tahoma, Arial, sans-serif;
+}
+.login-form .form-operation {
+  padding-bottom: 10rem;
+}
+.login-form .form-operation a {
+  color: #08c8c1;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+.third-party-login {
+  margin: 0 2.5rem 12.125rem 2.5rem;
+}
+.third-party-login p {
+  color: #08c8c1;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+.third-party-login .third-party-method {
+  position: relative;
+  margin: 5rem 2.5rem;
+}
+.third-party-login li {
+  width: 30%;
+  height: 3.5rem;
+  display: inline-block;
+}
+.third-party-login .sina-icon {
+  background: url(../images/sina-icon.png) no-repeat;
+  width: 4.25rem ;
+  height: 3.5rem;
+  display: block;
+  background-size: 3.25rem 2.5rem;
+}
+.third-party-login .qq-icon {
+  background: url(../images/qq-icon.png) no-repeat;
+  width: 4.25rem;
+  height: 3.5rem;
+  display: block;
+  background-size: 3.25rem 2.5rem;
+}
+.third-party-login .wechat-icon {
+  background: url(../images/wechat-icon.png) no-repeat;
+  width: 4.25rem;
+  height: 3.5rem;
+  display: block;
+  background-size: 3.25rem 2.5rem;
+}
+/*---------------folk-active民俗活动页-----------------*/
+.folk-content {
+  margin: 1.25rem;
+}
+.folk-content .content-box {
+  margin-bottom: 1.5rem;
+}
+.folk-content .content-box-img {
+  position: relative;
+  margin: 0.3125rem 0;
+}
+.folk-content .content-box-img img {
+  border-radius: 1.125rem;
+  width: 100%;
+}
+.folk-content .content-box-img .banner-number {
+  position: absolute;
+  top: 5%;
+  right: 3%;
+  z-index: 100;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.folk-content .content-box-img .banner-number span {
+  font-size: 2rem;
+  margin-right: 0.2rem;
+}
+.folk-content .content-box-img .banner-pinglun {
+  position: absolute;
+  top: 83%;
+  right: 3%;
+  z-index: 100;
+  width: 8.5rem;
+  height: 2.9rem;
+}
+.folk-content .content-box-img .banner-pinglun .shoucang-icon {
+  background-position: 0 -18.3125rem;
+  background-size: 100%;
+  height: 2.2rem;
+  width: 3.3rem;
+}
+.folk-content .content-box-img .banner-pinglun .pinglun-icon {
+  background-position: 0 -37.55rem;
+  background-size: 100%;
+  height: 2.2rem;
+  right: 0;
+  width: 3.3rem;
+}
+.folk-content .content-box-img .user-head {
+  position: absolute;
+  top: 67%;
+  left: 3%;
+  z-index: 100;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.folk-content .content-box-img .user-head img {
+  width: 5.25rem;
+  height: 5.25rem;
+  border-radius: 50%;
+  border: 2px solid #08c8c1;
+  margin-right: 1.5rem;
+}
+.folk-content .folk-info {
+  margin: 1rem;
+}
+.folk-content .folk-info .info-tit {
+  font-size: 2rem;
+  color: #1b3847;
+}
+.folk-content .folk-info .info-tit span {
+  color: #08c8c1;
+  font-size: 1.5rem;
+  border-bottom: 1px solid;
+}
+.folk-content .info {
+  color: #b4c5d3;
+  margin: 0.512rem 0 0 1.437rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  position: relative;
+}
+.folk-content .info p {
+  margin-bottom: 0.8rem;
+  height: 3.1rem;
+  overflow: hidden;
+  margin-left: -1.3rem;
+}
+.folk-content .info .info-address {
+  height: 3rem;
+}
+.folk-content .info .info-address .info-address-icon {
+  background-position: -0.325rem -19.812rem;
+  background-size: 100%;
+  width: 2.95rem;
+  height: 1.7rem;
+  top: 0;
+  left: -2.5625rem;
+}
+.folk-content .info .date-time {
+  height: 3rem;
+}
+.folk-content .info .date-time span {
+  margin-left: 0.225rem ;
+}
+.folk-content .info .date-time .date-time-icon {
+  background-position: 0.275rem -21.412rem;
+  background-size: 100%;
+  width: 3.45rem;
+  height: 1.7rem;
+  top: 0.2125rem;
+  margin-left: -4.3625rem;
+}
+/*---------------folk-active-details民俗活动详情页-----------------*/
+.folk-details-content {
+  margin-bottom: 6rem;
+}
+.top-banner img {
+  width: 100%;
+}
+.header-top-plane {
+  background-position: 0.3rem -23.4rem;
+  width: 2.75rem;
+  height: 1.4rem;
+  top: 1.112rem;
+  right: 1.337rem;
+  background-size: 100%;
+}
+.folk-details-info {
+  margin-bottom: 0.1rem;
+}
+.folk-details-info .folk-details-info-tit {
+  height: 3.5rem;
+  width: 100%;
+  text-align: left;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  background: #e7fdff;
+  position: relative;
+  padding: 0 1rem;
+}
+.folk-details-info .folk-details-info-tit span {
+  color: #f4a931;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  position: absolute;
+  top: 30%;
+  right: 3%;
+}
+.folk-details-info .details-info-list {
+  margin-bottom: 1.25rem;
+  font-size: 1.5rem;
+}
+.folk-details-info .details-info-list li {
+  height: 3.75rem;
+  margin-left: 5.25rem;
+  color: #b4c5d3;
+  border-bottom: 2px solid #e7fdff;
+  line-height: 4.3rem;
+  position: relative;
+}
+.calendar-icon {
+  background-size: 100%;
+  background-position: -0.5rem -26.86rem;
+  width: 2.975rem;
+  height: 1.675rem;
+  left: -3.75rem;
+  top: 1.125rem;
+}
+.address-icon-orange {
+  background-size: 100%;
+  background-position: -0.5rem -28.5rem;
+  width: 2.975rem;
+  height: 1.775rem;
+  left: -3.75rem;
+  top: 1.125rem;
+}
+.tel-icon-orange {
+  background-size: 100%;
+  background-position: -0.5rem -30.26rem;
+  width: 2.975rem;
+  height: 1.75rem;
+  left: -3.75rem;
+  top: 1.125rem;
+}
+.purse-icon {
+  background-size: 100%;
+  background-position: -0.5rem -32.06rem;
+  width: 2.975rem;
+  height: 2.075rem;
+  left: -3.75rem;
+  top: 1.125rem;
+}
+.details-head-portrait {
+  margin: 0 1.25rem;
+}
+.details-head-portrait img {
+  border-radius: 50% ;
+  width: 2.875rem;
+  height: 2.625rem;
+  margin: 0.25rem;
+  float: left;
+}
+.details-head-portrait ul {
+  height: 3.875rem;
+  position: relative;
+}
+.details-head-portrait .head-portrait-more {
+  position: absolute;
+  top: 25%;
+  font-size: 1.5rem;
+  right: 2%;
+  line-height: 1.5rem;
+}
+.concrete-content .concrete-content-tit {
+  background: #e7fdff;
+  overflow: hidden;
+  height: 3.875rem;
+}
+.concrete-content li {
+  float: left;
+  width: 33.33%;
+  height: 3.5rem;
+  font-size: 2rem;
+}
+.concrete-content li a {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+}
+.concrete-content .event-know {
+  border-bottom: 3px solid;
+  border-color: #08c8c1;
+}
+.concrete-content .event-know a {
+  color: #f4a931;
+  font-weight: bold;
+}
+.concrete-content .concrete-content-paragraph {
+  margin: 1.35rem 1.825rem 0 ;
+}
+.concrete-content .concrete-content-paragraph .bgcolor {
+  margin-bottom: 0.31rem;
+  font-size: 2rem;
+  line-height: 2rem;
+}
+.concrete-content .concrete-content-paragraph p {
+  color: #b4c5d3;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+.concrete-content-tit li:hover {
+  border-bottom: 3px solid #08c8c1;
+}
+.concrete-content-tit li:hover a {
+  color: #f4a931;
+  font-weight: bold;
+}
+footer {
+  position: fixed;
+  z-index: 99;
+  bottom: 0;
+  width: 100%;
+}
+.i-join {
+  height: 5rem;
+  width: 100%;
+  color: #ffffff;
+  font: 2rem;
+  background: #08c8c1;
+  text-align: center;
+  line-height: 2rem;
+  padding: 1.625rem 0;
+}
+/*--------------mine-home-------------------*/
+.top-banner-img {
+  position: relative;
+  margin-top: -5rem;
+}
+.top-banner-img .my-head {
+  position: absolute;
+  left: 1.675rem;
+  bottom: 2rem;
+  color: #ffffff;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+.top-banner-img .my-head img {
+  border-radius: 50%;
+  width: 6.5rem;
+  height: 6.5rem;
+}
+.mine-details {
+  margin: 1rem 0 10rem;
+  width: 100%;
+  font-size: 1rem;
+}
+.mine-details .mine-details-info {
+  background: #ffffff;
+  color: #1b3847;
+  margin-left: 4rem;
+  font-size: 1rem;
+  line-height: 1rem;
+  height: 2rem;
+}
+.mine-details .mine-details-info .mine-details-info-list li {
+  position: relative;
+  height: 3rem;
+  line-height: 3rem;
+  border-bottom: 2px solid #e7fdff;
+}
+.mine-icon {
+  background: url(../images/mine-icon.png) no-repeat;
+  position: absolute;
+  display: block;
+  width: 2.475rem;
+  height: 1.875rem;
+  left: -3rem;
+  top: 17%;
+  background-size: 70%;
+  vertical-align: middle;
+}
+.favorites-icon {
+  background-position: 0 0 ;
+}
+.order-icon {
+  background-position: 0 -1.8625rem;
+}
+.tracks-icon {
+  background-position: 0 -3.8375rem;
+}
+.private-letter-icon {
+  background-position: 0 -5.775rem;
+}
+.set-up-icon {
+  background-position: 0 -7.6625rem;
+}
+.feedback-icon {
+  background-position: 0 -9.825rem;
+}
+.share-friends-icon {
+  background-position: 0 -11.6375rem;
+}
+.about-icon {
+  background-position: 0 -13.4875rem;
+}
+.mine-icon-arrow {
+  position: absolute;
+  background: url(../images/mine-icon-arrow.png) no-repeat;
+  width: 2.475rem;
+  height: 1.875rem;
+  right: 1rem;
+  top: 30%;
+  background-size: 0.8rem;
+  display: inline-block;
+}
+/*-----------------find------------------*/
+/*# sourceMappingURL=tourism.css.map */

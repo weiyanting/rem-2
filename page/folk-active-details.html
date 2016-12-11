@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html style="font-size: 100%;">
+	<head>
+		<meta charset="utf-8" />
+		<meta charset="utf-8">
+	    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+	    <link rel="stylesheet" type="text/css" href="../css/commo.css"/>
+	    <link rel="stylesheet" type="text/css" href="../css/tourism.css"/>
+	    <title>rem-fontsize</title>
+	</head>
+	<body>
+		<!--头部-->
+		<header class="page-header">
+				<div class="page-nav">
+					<a href="folk-active.html">民俗活动详情页</a><span class="fr"><i class="tourism-icon header-top-plane"></i></span>
+				</div>
+				<a class="top-goback" href="javascript:history.go(-1)">
+					<i class="goback-icon"></i>
+				</a>
+		</header>
+		
+		<section class="folk-details-content">
+			<div class="top-banner">
+				<img src="../images/t2.jpg"/>
+			</div>
+			<div class="folk-details-info">
+				<p class="folk-details-info-tit">万人长街宴<span>免费</span></p>
+				<ul class="details-info-list">
+					<li><i class="tourism-icon calendar-icon"></i>2016/9/9(农历八月初九)<span>上午10点</span></li>
+					<li><i class="tourism-icon address-icon-orange"></i>云南省红河咪田赛</li>
+					<li><i class="tourism-icon tel-icon-orange"></i>13232221910</li>
+					<li><i class="tourism-icon purse-icon"></i>免费<span>随时退</span></li>
+				</ul>
+				<div class="details-head-portrait clearfix">
+					<ul class="txtC">
+						<li><img src="../images/details-head-portrait.jpg"/></li>
+						<li><img src="../images/details-head-portrait.jpg"/></li>
+						<li><img src="../images/details-head-portrait.jpg"/></li>
+						<li><img src="../images/details-head-portrait.jpg"/></li>
+						<li><img src="../images/details-head-portrait.jpg"/></li>
+						<span class="head-portrait-more">870人感兴趣</span>
+					</ul>
+				</div>
+			</div>
+			
+			<!--具体内容-->
+			<div class="concrete-content">
+				<div class="concrete-content-tit">
+					<ul class="txtC clearfix tab-tit">
+						<li class="event-know tabhover"><a href="javascript:;">参加须知</a></li>
+						<li class="event-details tab1"><a href="javascript:;">活动详情</a></li>
+						<li class="event-evaluate tab1"><a href="javascript:;">咨询&评价</a></li>
+					</ul>
+				</div>
+				<!--参加段落-->
+				<div class="concrete-content-paragraph tab-cont">
+					<div class="bgcolor">参加须知</div>
+					<p>1.请将您的手机调成振动或者静音模式；</br>
+						2.请您不要在会场内乱丢纸屑、果皮；</br>
+						3.请您不要在会场内抽烟!
+					</p>
+					<div class="bgcolor">参加须知</div>
+					<p>1.请将您的手机调成振动或者静音模式；</br>
+						2.请您不要在会场内乱丢纸屑、果皮；</br>
+						3.请您不要在会场内抽烟!
+					</p>
+					<div class="bgcolor">参加须知</div>
+					<p>1.请将您的手机调成振动或者静音模式；</br>
+						2.请您不要在会场内乱丢纸屑、果皮；</br>
+						3.请您不要在会场内抽烟!
+					</p>
+				</div>
+
+				<div class="concrete-content-paragraph tab-cont " style="display: none;">
+					<div class="bgcolor">活动详情</div>
+					<p>	1.抵用券有效期：自充入日起6个月有效。</br>
+						2.一卡代理、商旅客户不参加此活动。</br>
+						3.在法律允许范围内，携程旅行网保留对本次活动的最终解释权。
+					</p>
+					<div class="bgcolor">活动详情</div>
+					<p>	1.抵用券有效期：自充入日起6个月有效。</br>
+						2.一卡代理、商旅客户不参加此活动。</br>
+						3.在法律允许范围内，携程旅行网保留对本次活动的最终解释权。
+					</p>
+					<div class="bgcolor">活动详情</div>
+					<p>	1.抵用券有效期：自充入日起6个月有效。</br>
+						2.一卡代理、商旅客户不参加此活动。</br>
+						3.在法律允许范围内，携程旅行网保留对本次活动的最终解释权。
+					</p>
+					
+				</div>
+
+				<div class="concrete-content-paragraph tab-cont" style="display: none;">
+					<div class="bgcolor">咨询&评价</div>
+					<p>1.咨询&评价</br>
+						2.咨询&评价</br>
+						3.咨询&评价
+					</p>
+					<div class="bgcolor">咨询&评价</div>
+					<p>1.咨询&评价</br>
+						2.咨询&评价</br>
+						3.咨询&评价
+					</p>
+					<div class="bgcolor">咨询&评价</div>
+					<p>1.咨询&评价</br>
+						2.咨询&评价</br>
+						3.咨询&评价
+					</p>
+					<div class="bgcolor">咨询&评价</div>
+					<p>1.咨询&评价</br>
+						2.咨询&评价</br>
+						3.咨询&评价
+					</p>
+				</div>
+			</div>
+		</section>
+		
+		<footer>
+			<p class="i-join">
+				我要加入
+			</p>
+		</footer>
+		
+		
+		
+		
+	<script src="http://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+	<script src="../js/tourism.js"></script>
+		<script type="text/javascript">
+		//	rem字体
+	$(function(){
+			   $(window).resize(function(){
+					var nowWidth = document.body.clientWidth;//获取当前屏幕有效区域BODY的宽度
+					var changePercent = (nowWidth/640) * 100;//对比我们的640px宽度参考值,计算当前宽度变化的百分比
+					console.log('当前屏幕宽度:'+nowWidth+'px,相对于640px参考值的变化百分比:'+changePercent+"%");
+					$("html").css("font-size",changePercent+"%");
+			   }).resize();
+			})
+			//tab切换		
+			$(document).ready(function(){
+				$('.tab-tit li').click(function(){
+					var index=$(this).index();
+					$(this).attr('class','tabhover').siblings('li').attr('class','tab1');
+					$('.tab-cont').eq(index).fadeIn(500).siblings('.tab-cont').hide();
+				});
+			});
+		
+		</script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html style="font-size: 100%;">
+	<head>
+		<meta charset="utf-8" />
+		<meta charset="utf-8">
+	    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+	    <link rel="stylesheet" type="text/css" href="../css/commo.css"/>
+	    <link rel="stylesheet" type="text/css" href="../css/tourism.css"/>
+	    <title>rem-fontsize</title>
+	</head>
+	<body>
+		<!--头部-->
+		<header class="page-header">
+				<div class="page-nav">
+					<a href="folk-active-details.html">我的</a>
+				</div>
+				<a class="top-goback" href="javascript:history.go(-1)">
+					<i class="goback-icon"></i>
+				</a>
+		</header>
+		
+		<div class="folk-details-content">
+			<div class="top-banner-img">
+				<img src="../images/m1.jpg"/>
+				<div class="my-head">
+					<img src="../images/details-head-portrait.jpg"/>
+					<span>偷一段倾城的岁月</span>
+				</div>
+			</div>
+		</div>
+			
+			<section class="mine-details">
+			<div class="mine-details-info">
+				<ul class="mine-details-info-list">
+					<li><i class="mine-icon favorites-icon"></i>收藏夹<i class="mine-icon-arrow"></i></li>
+					<li><i class="mine-icon order-icon"></i>我的订单<i class="mine-icon-arrow"></i></li>
+					<li><i class="mine-icon tracks-icon"></i>我的足迹<i class="mine-icon-arrow"></i></li>
+					<li><i class="mine-icon private-letter-icon"></i>私信<i class="mine-icon-arrow"></i></li>
+					<li><i class="mine-icon set-up-icon"></i>设置<i class="mine-icon-arrow"></i></li>
+					<li><i class="mine-icon feedback-icon"></i>意见反馈<i class="mine-icon-arrow"></i></li>
+					<li><i class="mine-icon share-friends-icon"></i>分享APP给好友<i class="mine-icon-arrow"></i></li>
+					<li><i class="mine-icon about-icon"></i>关于<i class="mine-icon-arrow"></i></li>
+				</ul>
+				
+			</div>
+			</section>
+
+		
+		
+		<footer>
+			<p class="i-join">
+				我要加入
+			</p>
+		</footer>
+		
+		
+		
+		
+	<script src="http://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+	<script src="../js/tourism.js"></script>
+		<script type="text/javascript">
+//	rem字体
+	$(function(){
+			   $(window).resize(function(){
+					var nowWidth = document.body.clientWidth;//获取当前屏幕有效区域BODY的宽度
+					var changePercent = (nowWidth/640) * 100;//对比我们的640px宽度参考值,计算当前宽度变化的百分比
+					console.log('当前屏幕宽度:'+nowWidth+'px,相对于640px参考值的变化百分比:'+changePercent+"%");
+					$("html").css("font-size",changePercent+"%");
+			   }).resize();
+			})
+			//tab切换		
+			$(document).ready(function(){
+				$('.tab-tit li').click(function(){
+					var index=$(this).index();
+					$(this).attr('class','tabhover').siblings('li').attr('class','tab1');
+					$('.tab-cont').eq(index).fadeIn(500).siblings('.tab-cont').hide();
+				});
+			});
+		
+		</script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
